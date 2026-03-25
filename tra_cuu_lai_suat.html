@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tra cứu lãi suất Agribank HN</title>
+<title>Tra cứu lãi suất</title>
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:'Times New Roman',serif;font-size:13px;background:#f5f5f0;color:#1a1a1a;padding:16px}
@@ -41,7 +41,7 @@
   .nim-good{color:#27ae60}
   .nim-warn{color:#e67e22}
 
-  .nim-box{background:#fff;border:1px solid #ccc;border-radius:6px;padding:12px 14px;margin-bottom:14px}
+  .nim-box{background:#fff;border:1px solid #ccc;border-radius:6px;padding:12px 14px;margin-bottom:14px;overflow-x:auto;-webkit-overflow-scrolling:touch}
   .nim-box h3{font-size:13px;font-weight:bold;color:#17375E;margin-bottom:10px}
   table{width:100%;border-collapse:collapse;font-size:12px}
   th{background:#17375E;color:#fff;padding:5px 8px;text-align:center;font-weight:normal;font-size:11px}
@@ -54,8 +54,8 @@
   .td-nim-warn{text-align:center;color:#e67e22;font-weight:bold}
 
   /* Panel 2 — Tra cứu lịch sử */
-  .hist-table{background:#fff;border:1px solid #ccc;border-radius:6px;overflow:hidden}
-  .hist-table table{font-size:11px}
+  .hist-table{background:#fff;border:1px solid #ccc;border-radius:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .hist-table table{font-size:11px;min-width:520px}
 
   /* Panel 3 — So sánh */
   .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -71,7 +71,7 @@
 </head>
 <body>
 
-<h1>TRA CỨU LÃI SUẤT AGRIBANK — CHI NHÁNH HÀ NỘI</h1>
+<h1>TRA CỨU LÃI SUẤT</h1>
 <p class="subtitle">Hệ thống 5 chỉ tiêu lãi suất • Cập nhật đến 24/03/2026</p>
 
 <p id="load-status" style="text-align:center;font-size:11px;color:#888;margin:-10px 0 10px;min-height:16px"></p>
@@ -152,7 +152,7 @@
 
 <!-- PANEL 3: Toàn bộ lịch sử -->
 <div class="panel" id="p3">
-  <div id="p3-content"></div>
+  <div id="p3-content" style="overflow-x:auto;-webkit-overflow-scrolling:touch"></div>
 </div>
 
 <script>
