@@ -1,0 +1,1638 @@
+{
+  "meta": {
+    "ten_he_thong": "Hệ thống lãi suất Agribank - Chi nhánh Hà Nội",
+    "mo_ta": "Lịch sử 5 chỉ tiêu lãi suất trích từ văn bản TSC Agribank",
+    "cap_nhat_lan_cuoi": "2026-03-24",
+    "nguoi_cap_nhat": "Trích xuất từ văn bản gốc",
+    "loai_lai_suat": {
+      "1": "Trần LSHĐ thông thường (niêm yết)",
+      "2": "Trần LSHĐ chính sách khách hàng (cạnh tranh)",
+      "3": "Sàn lãi suất cho vay thông thường",
+      "4": "Giá bán vốn (FTP bán)",
+      "5": "Giá mua vốn (FTP mua)"
+    },
+    "ky_han_codes": {
+      "KKH_1T": "KKH và CKH dưới 1 tháng",
+      "1T_3T": "1T–3T",
+      "3T_6T": "3T–6T",
+      "6T_12T": "6T–12T",
+      "12T_24T": "12T–24T",
+      "24T_plus": "≥24T",
+      "12T": "12T",
+      "den_3T": "≤3T",
+      "3T_6T_cv": "3T–6T",
+      "6T_12T_cv": "6T–12T",
+      "12T_36T": "12T–36T",
+      "36T_60T": "36T–60T",
+      "tren_60T": ">60T",
+      "NH_SXKD_den3T": "NH SXKD ≤3T",
+      "NH_SXKD_3T6T": "NH SXKD 3T–6T",
+      "NH_SXKD_6T12T": "NH SXKD 6T–12T",
+      "NH_DS_den3T": "NH đời sống/BĐS ≤3T",
+      "NH_DS_3T6T": "NH đời sống/BĐS 3T–6T",
+      "NH_DS_6T12T": "NH đời sống/BĐS 6T–12T",
+      "TDH_SXKD": "TDH SXKD",
+      "TDH_doisong": "TDH đời sống",
+      "TDH_BDS": "TDH KD BĐS",
+      "the_tin_dung": "Thẻ tín dụng",
+      "uu_tien": "Ưu tiên TT39",
+      "KBNN_KQ": "KBNN/KQ/VCD"
+    }
+  },
+  "lich_su": [
+    {
+      "id": "VB-15995",
+      "so_vb": "15995/NHNo-ALCO",
+      "ngay_ky": "2025-10-27",
+      "hieu_luc_tu": "2025-10-27",
+      "hieu_luc_den": "2025-12-01",
+      "loai": 1,
+      "ten_loai": "Trần LSHĐ thông thường",
+      "ten_vb": "Quy định LSHĐ tiền gửi VND",
+      "ghi_chu": "Thay VB 16666/2024 và VB 3831/2025. Thay thế bởi VB-19669.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.1
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.1
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.4
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.7
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 4.8
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        }
+      ]
+    },
+    {
+      "id": "VB-19669",
+      "so_vb": "19669/NHNo-ALCO",
+      "ngay_ky": "2025-12-01",
+      "hieu_luc_tu": "2025-12-01",
+      "hieu_luc_den": "2026-01-15",
+      "loai": 1,
+      "ten_loai": "Trần LSHĐ thông thường",
+      "ten_vb": "Quy định LSHĐ tiền gửi VND (tháng 12/2025)",
+      "ghi_chu": "Thay VB-15995. Thay thế bởi VB-666.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.7
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 4.7
+        }
+      ]
+    },
+    {
+      "id": "VB-666",
+      "so_vb": "666/NHNo-ALCO",
+      "ngay_ky": "2026-01-15",
+      "hieu_luc_tu": "2026-01-15",
+      "hieu_luc_den": "2026-03-25",
+      "loai": 1,
+      "ten_loai": "Trần LSHĐ thông thường",
+      "ten_vb": "Quy định LSHĐ tiền gửi VND (01/2026)",
+      "ghi_chu": "Thay VB-19669. VB mới nhất — đang hiệu lực.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.6
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.6
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.9
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.9
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.0
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.9
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        }
+      ]
+    },
+    {
+      "id": "VB-10298",
+      "so_vb": "10298/NHNo-ALCO",
+      "ngay_ky": "2025-07-01",
+      "hieu_luc_tu": "2025-07-01",
+      "hieu_luc_den": "2025-10-27",
+      "loai": 2,
+      "ten_loai": "Trần LSHĐ chính sách KH",
+      "ten_vb": "Quy định CSKH LSHĐ VND (07/2025)",
+      "ghi_chu": "Thay thế bởi VB-15996. Dữ liệu theo Mục 1.1 khoản b (Platinum/Gold).",
+      "bang_ls": [
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.3
+        }
+      ]
+    },
+    {
+      "id": "VB-15996",
+      "so_vb": "15996/NHNo-ALCO",
+      "ngay_ky": "2025-10-27",
+      "hieu_luc_tu": "2025-10-27",
+      "hieu_luc_den": "2025-11-04",
+      "loai": 2,
+      "ten_loai": "Trần LSHĐ chính sách KH",
+      "ten_vb": "Quy định CSKH LSHĐ VND (10/2025)",
+      "ghi_chu": "Thay VB-10298. Thay thế bởi VB-16656. Dữ liệu theo Mục 1.1 khoản b (Platinum/Gold).",
+      "bang_ls": [
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.1
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.1
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.3
+        }
+      ]
+    },
+    {
+      "id": "VB-16656",
+      "so_vb": "16656/NHNo-ALCO",
+      "ngay_ky": "2025-11-04",
+      "hieu_luc_tu": "2025-11-04",
+      "hieu_luc_den": "2025-12-01",
+      "loai": 2,
+      "ten_loai": "Trần LSHĐ chính sách KH",
+      "ten_vb": "Quy định CSKH LSHĐ VND (11/2025)",
+      "ghi_chu": "Thay VB-15996. Gia hạn đến 31/12 theo VB 21_11. Thay thế bởi VB-19678. Dữ liệu theo Mục 1.1 khoản b (Platinum/Gold).",
+      "bang_ls": [
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.3
+        }
+      ]
+    },
+    {
+      "id": "VB-19678",
+      "so_vb": "19678/NHNo-ALCO",
+      "ngay_ky": "2025-12-01",
+      "hieu_luc_tu": "2025-12-01",
+      "hieu_luc_den": "2026-01-15",
+      "loai": 2,
+      "ten_loai": "Trần LSHĐ chính sách KH",
+      "ten_vb": "Quy định CSKH LSHĐ VND (12/2025)",
+      "ghi_chu": "Thay VB-16656 và VB-17226. Thay thế bởi VB-668. Dữ liệu theo Mục 1.1 khoản b (Platinum/Gold).",
+      "bang_ls": [
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.75
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        }
+      ]
+    },
+    {
+      "id": "VB-668",
+      "so_vb": "668/NHNo-ALCO",
+      "ngay_ky": "2026-01-15",
+      "hieu_luc_tu": "2026-01-15",
+      "hieu_luc_den": "2026-02-06",
+      "loai": 2,
+      "ten_loai": "Trần LSHĐ chính sách KH",
+      "ten_vb": "Quy định CSKH LSHĐ VND (01/2026)",
+      "ghi_chu": "Thay VB-19678. Thay thế bởi VB-2148. Dữ liệu theo Mục 1.1 khoản b (Platinum/Gold).",
+      "bang_ls": [
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.3
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 6.3
+        }
+      ]
+    },
+    {
+      "id": "VB-2148",
+      "so_vb": "2148/NHNo-ALCO",
+      "ngay_ky": "2026-02-05",
+      "hieu_luc_tu": "2026-02-06",
+      "hieu_luc_den": null,
+      "loai": 2,
+      "ten_loai": "Trần LSHĐ chính sách KH",
+      "ten_vb": "Quy định CSKH LSHĐ VND (02/2026)",
+      "ghi_chu": "Thay VB-668. Tăng mạnh 6T+. Hủy bỏ CSKH kỳ hạn <6T. VB mới nhất. Dữ liệu theo Mục 1.1 khoản b (Platinum/Gold). VB 4567/26 điều chỉnh LS online (Mục 2) từ 25/3/2026 — không thuộc 5 chỉ tiêu.",
+      "bang_ls": [
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 7.2
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 7.2
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 7.4
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 7.4
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 7.4
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 7.4
+        }
+      ]
+    },
+    {
+      "id": "VB-2098",
+      "so_vb": "2098/NHNo-ALCO",
+      "ngay_ky": "2025-02-18",
+      "hieu_luc_tu": "2025-02-18",
+      "hieu_luc_den": "2025-11-01",
+      "loai": 3,
+      "ten_loai": "Sàn LSCV thông thường",
+      "ten_vb": "Quy định LSCV bằng VND (02/2025)",
+      "ghi_chu": "Thay thế bởi VB-san-LSCV-nov25.",
+      "bang_ls": [
+        {
+          "ky_han": "NH_SXKD_den3T",
+          "gia_tri": 4.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_3T6T",
+          "gia_tri": 5.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_6T12T",
+          "gia_tri": 5.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_den3T",
+          "gia_tri": 5.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_3T6T",
+          "gia_tri": 5.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_6T12T",
+          "gia_tri": 6.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_SXKD",
+          "gia_tri": 7.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_doisong",
+          "gia_tri": 7.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_BDS",
+          "gia_tri": 7.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "the_tin_dung",
+          "gia_tri": 13.0,
+          "loai_ls": "cố định"
+        },
+        {
+          "ky_han": "uu_tien",
+          "gia_tri": 4.0,
+          "loai_ls": "cố định"
+        }
+      ]
+    },
+    {
+      "id": "VB-san-LSCV-nov25",
+      "so_vb": "18689/NHNo-ALCO",
+      "ngay_ky": "2025-11-01",
+      "hieu_luc_tu": "2025-11-01",
+      "hieu_luc_den": "2025-12-19",
+      "loai": 3,
+      "ten_loai": "Sàn LSCV thông thường",
+      "ten_vb": "Quy định LSCV bằng VND (11/2025)",
+      "ghi_chu": "Số VB thực tế: 18689 (theo VB-20056 tham chiếu). Thay VB-2098. Thay thế bởi VB-20056.",
+      "bang_ls": [
+        {
+          "ky_han": "NH_SXKD_den3T",
+          "gia_tri": 5.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_3T6T",
+          "gia_tri": 5.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_6T12T",
+          "gia_tri": 6.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_den3T",
+          "gia_tri": 6.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_3T6T",
+          "gia_tri": 6.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_6T12T",
+          "gia_tri": 7.0,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_SXKD",
+          "gia_tri": 7.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_doisong",
+          "gia_tri": 7.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_BDS",
+          "gia_tri": 8.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "the_tin_dung",
+          "gia_tri": 13.0,
+          "loai_ls": "cố định"
+        },
+        {
+          "ky_han": "uu_tien",
+          "gia_tri": 4.0,
+          "loai_ls": "cố định"
+        }
+      ]
+    },
+    {
+      "id": "VB-20056",
+      "so_vb": "20056/NHNo-ALCO",
+      "ngay_ky": "2025-12-19",
+      "hieu_luc_tu": "2025-12-19",
+      "hieu_luc_den": "2026-01-27",
+      "loai": 3,
+      "ten_loai": "Sàn LSCV thông thường",
+      "ten_vb": "Quy định LSCV bằng VND (12/2025)",
+      "ghi_chu": "Thay VB-18689. Thay thế bởi VB-1803.",
+      "bang_ls": [
+        {
+          "ky_han": "NH_SXKD_den3T",
+          "gia_tri": 5.6,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_3T6T",
+          "gia_tri": 5.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_6T12T",
+          "gia_tri": 6.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_den3T",
+          "gia_tri": 6.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_3T6T",
+          "gia_tri": 6.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_6T12T",
+          "gia_tri": 7.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_SXKD",
+          "gia_tri": 7.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_doisong",
+          "gia_tri": 7.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_BDS",
+          "gia_tri": 8.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "the_tin_dung",
+          "gia_tri": 13.0,
+          "loai_ls": "cố định"
+        },
+        {
+          "ky_han": "uu_tien",
+          "gia_tri": 4.0,
+          "loai_ls": "cố định"
+        }
+      ]
+    },
+    {
+      "id": "VB-1803",
+      "so_vb": "1803/NHNo-ALCO",
+      "ngay_ky": "2026-01-27",
+      "hieu_luc_tu": "2026-01-27",
+      "hieu_luc_den": null,
+      "loai": 3,
+      "ten_loai": "Sàn LSCV thông thường",
+      "ten_vb": "Quy định LSCV bằng VND (01/2026)",
+      "ghi_chu": "Thay VB-20056. Tăng mạnh, tách BĐS/CK riêng, thẻ TD tăng lên 15%. VB mới nhất.",
+      "bang_ls": [
+        {
+          "ky_han": "NH_SXKD_den3T",
+          "gia_tri": 6.1,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_3T6T",
+          "gia_tri": 6.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_6T12T",
+          "gia_tri": 7.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_den3T",
+          "gia_tri": 7.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_3T6T",
+          "gia_tri": 7.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_6T12T",
+          "gia_tri": 8.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_SXKD",
+          "gia_tri": 8.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_doisong",
+          "gia_tri": 8.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_BDS",
+          "gia_tri": 9.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "the_tin_dung",
+          "gia_tri": 15.0,
+          "loai_ls": "cố định"
+        },
+        {
+          "ky_han": "uu_tien",
+          "gia_tri": 4.0,
+          "loai_ls": "cố định"
+        }
+      ]
+    },
+    {
+      "id": "VB-20057",
+      "so_vb": "20057/NHNo-ALCO",
+      "ngay_ky": "2025-12-19",
+      "hieu_luc_tu": "2025-12-25",
+      "hieu_luc_den": "2026-01-27",
+      "loai": 4,
+      "ten_loai": "Giá bán vốn (FTP bán)",
+      "ten_vb": "Giá bán vốn VND (12/2025)",
+      "ghi_chu": "Giải ngân từ 25/12/2025. Thay thế bởi VB-1802.",
+      "bang_ls": [
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.8
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.7
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.9
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.8
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.9
+        }
+      ]
+    },
+    {
+      "id": "VB-1802",
+      "so_vb": "1802/NHNo-ALCO",
+      "ngay_ky": "2026-01-27",
+      "hieu_luc_tu": "2026-01-27",
+      "hieu_luc_den": null,
+      "loai": 4,
+      "ten_loai": "Giá bán vốn (FTP bán)",
+      "ten_vb": "Điều chỉnh giá bán vốn VND (01/2026)",
+      "ghi_chu": "Thay VB-20057. Tăng toàn bộ kỳ hạn. VB mới nhất.",
+      "bang_ls": [
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.1
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.2
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.1
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.3
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.2
+        }
+      ]
+    },
+    {
+      "id": "VB-FTPm1",
+      "so_vb": "20100/NHNo-ALCO",
+      "ngay_ky": "2024-12-30",
+      "hieu_luc_tu": "2025-01-01",
+      "hieu_luc_den": "2025-03-17",
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "Giá chuyển vốn nội bộ VND — FTP mua (m1)",
+      "ghi_chu": "01/01–17/3/2025.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.2
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.2
+        }
+      ]
+    },
+    {
+      "id": "VB-FTPm2",
+      "so_vb": "3467/NHNo-ALCO",
+      "ngay_ky": "2025-03-17",
+      "hieu_luc_tu": "2025-03-18",
+      "hieu_luc_den": "2025-05-07",
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "FTP mua (m2)",
+      "ghi_chu": "18/3–07/5/2025.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.2
+        }
+      ]
+    },
+    {
+      "id": "VB-FTPm3",
+      "so_vb": "6159/NHNo-ALCO",
+      "ngay_ky": "2025-05-08",
+      "hieu_luc_tu": "2025-05-08",
+      "hieu_luc_den": "2025-10-08",
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "FTP mua (m3)",
+      "ghi_chu": "08/5–08/10/2025.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.6
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.2
+        }
+      ]
+    },
+    {
+      "id": "VB-FTPm4",
+      "so_vb": "DC-FTPm-oct25/NHNo-ALCO",
+      "ngay_ky": "2025-10-09",
+      "hieu_luc_tu": "2025-10-09",
+      "hieu_luc_den": "2026-01-13",
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "ĐC FTP mua (10/2025)",
+      "ghi_chu": "09/10/2025–13/01/2026. Thay thế bởi VB-669.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.7
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.3
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.2
+        }
+      ]
+    },
+    {
+      "id": "VB-669",
+      "so_vb": "669/NHNo-ALCO",
+      "ngay_ky": "2026-01-15",
+      "hieu_luc_tu": "2026-01-15",
+      "hieu_luc_den": "2026-01-27",
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "Quy định giá mua vốn VND (01/2026)",
+      "ghi_chu": "Hủy toàn bộ VB FTP mua 2025. Thay thế bởi VB-1801.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.7
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.4
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.0
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.9
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.3
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.8
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.2
+        }
+      ]
+    },
+    {
+      "id": "VB-1801",
+      "so_vb": "1801/NHNo-ALCO",
+      "ngay_ky": "2026-01-27",
+      "hieu_luc_tu": "2026-01-27",
+      "hieu_luc_den": "2026-03-25",
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "Điều chỉnh giá mua vốn VND (01/2026)",
+      "ghi_chu": "Thay VB-669. Tăng toàn bộ kỳ hạn. VB mới nhất.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.8
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.5
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.1
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.4
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 6.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.3
+        }
+      ]
+    },
+    {
+      "id": "VB-4566",
+      "so_vb": "4566/NHNo-ALCO",
+      "ngay_ky": "2026-03-24",
+      "hieu_luc_tu": "2026-03-25",
+      "hieu_luc_den": null,
+      "loai": 1,
+      "ten_loai": "Trần LSHĐ thông thường",
+      "ten_vb": "Quy định LSHĐ tiền gửi VND (03/2026)",
+      "ghi_chu": "Thay VB-666. Tăng mạnh 12T–24T CN (5,9%) và ≥24T CN (6,5%).",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 0.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.6
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.6
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.9
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.9
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.0
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.9
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.9
+        },
+        {
+          "ky_han": "12T_24T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 5.0
+        }
+      ]
+    },
+    {
+      "id": "VB-4568",
+      "so_vb": "4568/NHNo-ALCO",
+      "ngay_ky": "2026-03-24",
+      "hieu_luc_tu": "2026-03-25",
+      "hieu_luc_den": null,
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "Điều chỉnh giá mua vốn VND (03/2026)",
+      "ghi_chu": "Thay VB-1801. Tăng 12T CN (6,8%) và trên 12T CN (7,2%). TC giữ nguyên.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 2.8
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 2.5
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.1
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.8
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 7.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.3
+        }
+      ]
+    }
+  ]
+}
