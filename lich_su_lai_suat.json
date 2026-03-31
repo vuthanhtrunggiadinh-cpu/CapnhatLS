@@ -2,7 +2,7 @@
   "meta": {
     "ten_he_thong": "Hệ thống lãi suất Agribank - Chi nhánh Hà Nội",
     "mo_ta": "Lịch sử 5 chỉ tiêu lãi suất trích từ văn bản TSC Agribank",
-    "cap_nhat_lan_cuoi": "2026-03-24",
+    "cap_nhat_lan_cuoi": "2026-03-31",
     "nguoi_cap_nhat": "Trích xuất từ văn bản gốc",
     "loai_lai_suat": {
       "1": "Trần LSHĐ thông thường (niêm yết)",
@@ -738,7 +738,7 @@
       "so_vb": "20056/NHNo-ALCO",
       "ngay_ky": "2025-12-19",
       "hieu_luc_tu": "2025-12-19",
-      "hieu_luc_den": "2026-01-27",
+      "hieu_luc_den": "2026-02-03",
       "loai": 3,
       "ten_loai": "Sàn LSCV thông thường",
       "ten_vb": "Quy định LSCV bằng VND (12/2025)",
@@ -802,15 +802,15 @@
       ]
     },
     {
-      "id": "VB-1803",
-      "so_vb": "1803/NHNo-ALCO",
-      "ngay_ky": "2026-01-27",
-      "hieu_luc_tu": "2026-01-27",
+      "id": "VB-1801",
+      "so_vb": "1801/NHNo-ALCO",
+      "ngay_ky": "2026-02-03",
+      "hieu_luc_tu": "2026-02-03",
       "hieu_luc_den": null,
       "loai": 3,
       "ten_loai": "Sàn LSCV thông thường",
       "ten_vb": "Quy định LSCV bằng VND (01/2026)",
-      "ghi_chu": "Thay VB-20056. Tăng mạnh, tách BĐS/CK riêng, thẻ TD tăng lên 15%. VB mới nhất.",
+      "ghi_chu": "Thay VB-20056. Thay thế bởi VB-2326 (hết HLực 10/02/2026 theo VB 2326). TDH BĐS tăng lên 9,8%.",
       "bang_ls": [
         {
           "ky_han": "NH_SXKD_den3T",
@@ -854,7 +854,7 @@
         },
         {
           "ky_han": "TDH_BDS",
-          "gia_tri": 9.5,
+          "gia_tri": 9.8,
           "loai_ls": "tối thiểu"
         },
         {
@@ -943,15 +943,15 @@
       ]
     },
     {
-      "id": "VB-1802",
-      "so_vb": "1802/NHNo-ALCO",
-      "ngay_ky": "2026-01-27",
-      "hieu_luc_tu": "2026-01-27",
-      "hieu_luc_den": null,
+      "id": "VB-1803",
+      "so_vb": "1803/NHNo-ALCO",
+      "ngay_ky": "2026-02-03",
+      "hieu_luc_tu": "2026-02-03",
+      "hieu_luc_den": "2026-02-10",
       "loai": 4,
       "ten_loai": "Giá bán vốn (FTP bán)",
       "ten_vb": "Điều chỉnh giá bán vốn VND (01/2026)",
-      "ghi_chu": "Thay VB-20057. Tăng toàn bộ kỳ hạn. VB mới nhất.",
+      "ghi_chu": "Thay VB-20057. Thay thế bởi VB-2326 từ 10/02/2026.",
       "bang_ls": [
         {
           "ky_han": "den_3T",
@@ -1332,7 +1332,7 @@
       "so_vb": "669/NHNo-ALCO",
       "ngay_ky": "2026-01-15",
       "hieu_luc_tu": "2026-01-15",
-      "hieu_luc_den": "2026-01-27",
+      "hieu_luc_den": "2026-02-03",
       "loai": 5,
       "ten_loai": "Giá mua vốn (FTP mua)",
       "ten_vb": "Quy định giá mua vốn VND (01/2026)",
@@ -1406,15 +1406,15 @@
       ]
     },
     {
-      "id": "VB-1801",
-      "so_vb": "1801/NHNo-ALCO",
-      "ngay_ky": "2026-01-27",
-      "hieu_luc_tu": "2026-01-27",
+      "id": "VB-1802",
+      "so_vb": "1802/NHNo-ALCO",
+      "ngay_ky": "2026-02-03",
+      "hieu_luc_tu": "2026-02-03",
       "hieu_luc_den": "2026-03-25",
       "loai": 5,
       "ten_loai": "Giá mua vốn (FTP mua)",
       "ten_vb": "Điều chỉnh giá mua vốn VND (01/2026)",
-      "ghi_chu": "Thay VB-669. Tăng toàn bộ kỳ hạn. VB mới nhất.",
+      "ghi_chu": "Thay VB-669. Tiếp tục thực hiện theo VB 669 cho các nội dung khác.",
       "bang_ls": [
         {
           "ky_han": "KKH_1T",
@@ -1565,7 +1565,7 @@
       "loai": 5,
       "ten_loai": "Giá mua vốn (FTP mua)",
       "ten_vb": "Điều chỉnh giá mua vốn VND (03/2026)",
-      "ghi_chu": "Thay VB-1801. Tăng 12T CN (6,8%) và trên 12T CN (7,2%). TC giữ nguyên.",
+      "ghi_chu": "Thay VB-1802. Tăng 12T CN (6,8%) và trên 12T CN (7,2%). TC giữ nguyên.",
       "bang_ls": [
         {
           "ky_han": "KKH_1T",
@@ -1631,6 +1631,79 @@
           "ky_han": "KBNN_KQ",
           "doi_tuong": "all",
           "gia_tri": 1.3
+        }
+      ]
+    },
+    {
+      "id": "VB-2326",
+      "so_vb": "2326/NHNo-ALCO",
+      "ngay_ky": "2026-02-09",
+      "hieu_luc_tu": "2026-02-10",
+      "hieu_luc_den": null,
+      "loai": 4,
+      "ten_loai": "Giá bán vốn (FTP bán)",
+      "ten_vb": "Điều chỉnh giá bán vốn VND (02/2026)",
+      "ghi_chu": "Thay VB-1803. Tăng toàn diện: ≤3T 5,5%; 3T–6T 6,0%; 6T+ đồng loạt 6,5%.",
+      "bang_ls": [
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.5
         }
       ]
     }
