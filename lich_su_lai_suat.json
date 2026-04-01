@@ -2,7 +2,7 @@
   "meta": {
     "ten_he_thong": "Hệ thống lãi suất Agribank - Chi nhánh Hà Nội",
     "mo_ta": "Lịch sử 5 chỉ tiêu lãi suất trích từ văn bản TSC Agribank",
-    "cap_nhat_lan_cuoi": "2026-03-31",
+    "cap_nhat_lan_cuoi": "2026-04-01",
     "nguoi_cap_nhat": "Trích xuất từ văn bản gốc",
     "loai_lai_suat": {
       "1": "Trần LSHĐ thông thường (niêm yết)",
@@ -1639,11 +1639,11 @@
       "so_vb": "2326/NHNo-ALCO",
       "ngay_ky": "2026-02-09",
       "hieu_luc_tu": "2026-02-10",
-      "hieu_luc_den": null,
+      "hieu_luc_den": "2026-04-02",
       "loai": 4,
       "ten_loai": "Giá bán vốn (FTP bán)",
       "ten_vb": "Điều chỉnh giá bán vốn VND (02/2026)",
-      "ghi_chu": "Thay VB-1803. Tăng toàn diện: ≤3T 5,5%; 3T–6T 6,0%; 6T+ đồng loạt 6,5%.",
+      "ghi_chu": "Thay VB-1803. ≤3T 5,5%; 3T–6T 6,0%; 6T+ đồng loạt 6,5%. Thay thế bởi VB-5198 từ 02/04/2026. Vẫn áp dụng cho giải ngân trước 02/04/2026.",
       "bang_ls": [
         {
           "ky_han": "den_3T",
@@ -1704,6 +1704,79 @@
           "ky_han": "tren_60T",
           "doi_tuong": "TC",
           "gia_tri": 6.5
+        }
+      ]
+    },
+    {
+      "id": "VB-5198",
+      "so_vb": "5198/NHNo-ALCO",
+      "ngay_ky": "2026-03-31",
+      "hieu_luc_tu": "2026-04-02",
+      "hieu_luc_den": null,
+      "loai": 4,
+      "ten_loai": "Giá bán vốn (FTP bán)",
+      "ten_vb": "Điều chỉnh giá bán vốn VND (03/2026)",
+      "ghi_chu": "Thay VB-2326. Tăng kỳ hạn trên 12T lên 7,0%. Giải ngân từ 02/04/2026.",
+      "bang_ls": [
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "den_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.5
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "3T_6T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "CN",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "6T_12T_cv",
+          "doi_tuong": "TC",
+          "gia_tri": 6.5
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "CN",
+          "gia_tri": 7.0
+        },
+        {
+          "ky_han": "12T_36T",
+          "doi_tuong": "TC",
+          "gia_tri": 7.0
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 7.0
+        },
+        {
+          "ky_han": "36T_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 7.0
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "CN",
+          "gia_tri": 7.0
+        },
+        {
+          "ky_han": "tren_60T",
+          "doi_tuong": "TC",
+          "gia_tri": 7.0
         }
       ]
     }
