@@ -2,7 +2,7 @@
   "meta": {
     "ten_he_thong": "Hệ thống lãi suất Agribank - Chi nhánh Hà Nội",
     "mo_ta": "Lịch sử 5 chỉ tiêu lãi suất trích từ văn bản TSC Agribank",
-    "cap_nhat_lan_cuoi": "2026-04-09",
+    "cap_nhat_lan_cuoi": "2026-07-08",
     "nguoi_cap_nhat": "Trích xuất từ văn bản gốc",
     "loai_lai_suat": {
       "1": "Trần LSHĐ thông thường (niêm yết)",
@@ -806,7 +806,7 @@
       "so_vb": "1801/NHNo-ALCO",
       "ngay_ky": "2026-02-03",
       "hieu_luc_tu": "2026-02-03",
-      "hieu_luc_den": null,
+      "hieu_luc_den": "2026-07-10",
       "loai": 3,
       "ten_loai": "Sàn LSCV thông thường",
       "ten_vb": "Quy định LSCV bằng VND (01/2026)",
@@ -1928,6 +1928,74 @@
           "ky_han": "KBNN_KQ",
           "doi_tuong": "all",
           "gia_tri": 1.3
+        }
+      ]
+    },
+    {
+      "id": "VB-11640",
+      "so_vb": "11640/NHNo-ALCO",
+      "ngay_ky": "2026-07-08",
+      "hieu_luc_tu": "2026-07-10",
+      "hieu_luc_den": null,
+      "loai": 3,
+      "ten_loai": "Sàn LSCV thông thường",
+      "ten_vb": "Điều chỉnh LSCV VND (07/2026)",
+      "ghi_chu": "Thay VB-1801. Điều chỉnh điểm 2 mục I Phụ lục: NH Đời sống ≤3T: 7,3%→6,8%. Riêng NH BĐS ngắn hạn ≤3T vẫn 7,3%. Các nội dung khác theo VB-1801.",
+      "bang_ls": [
+        {
+          "ky_han": "NH_SXKD_den3T",
+          "gia_tri": 6.1,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_3T6T",
+          "gia_tri": 6.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_SXKD_6T12T",
+          "gia_tri": 7.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_den3T",
+          "gia_tri": 6.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_3T6T",
+          "gia_tri": 7.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "NH_DS_6T12T",
+          "gia_tri": 8.3,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_SXKD",
+          "gia_tri": 8.5,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_doisong",
+          "gia_tri": 8.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "TDH_BDS",
+          "gia_tri": 9.8,
+          "loai_ls": "tối thiểu"
+        },
+        {
+          "ky_han": "the_tin_dung",
+          "gia_tri": 15.0,
+          "loai_ls": "cố định"
+        },
+        {
+          "ky_han": "uu_tien",
+          "gia_tri": 4.0,
+          "loai_ls": "cố định"
         }
       ]
     }
