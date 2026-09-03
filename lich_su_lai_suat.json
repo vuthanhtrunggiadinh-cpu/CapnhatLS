@@ -2,7 +2,7 @@
   "meta": {
     "ten_he_thong": "Hệ thống lãi suất Agribank - Chi nhánh Hà Nội",
     "mo_ta": "Lịch sử 5 chỉ tiêu lãi suất trích từ văn bản TSC Agribank",
-    "cap_nhat_lan_cuoi": "2026-07-08",
+    "cap_nhat_lan_cuoi": "2026-08-28",
     "nguoi_cap_nhat": "Trích xuất từ văn bản gốc",
     "loai_lai_suat": {
       "1": "Trần LSHĐ thông thường (niêm yết)",
@@ -1858,7 +1858,7 @@
       "so_vb": "5995/NHNo-ALCO",
       "ngay_ky": "2026-04-09",
       "hieu_luc_tu": "2026-04-13",
-      "hieu_luc_den": null,
+      "hieu_luc_den": "2026-08-28",
       "loai": 5,
       "ten_loai": "Giá mua vốn (FTP mua)",
       "ten_vb": "Điều chỉnh giá mua vốn VND (04/2026)",
@@ -1996,6 +1996,84 @@
           "ky_han": "uu_tien",
           "gia_tri": 4.0,
           "loai_ls": "cố định"
+        }
+      ]
+    },
+    {
+      "id": "VB-15034",
+      "so_vb": "15034/NHNo-ALCO",
+      "ngay_ky": "2026-08-28",
+      "hieu_luc_tu": "2026-08-28",
+      "hieu_luc_den": null,
+      "loai": 5,
+      "ten_loai": "Giá mua vốn (FTP mua)",
+      "ten_vb": "Điều chỉnh giá mua vốn VND (08/2026)",
+      "ghi_chu": "Thay VB-5995. Chỉ điều chỉnh KKH & CKH <1T: CN 2,8%→4,0%; TC 2,5%→3,8%. Các kỳ hạn khác theo VB-5995.",
+      "bang_ls": [
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.0
+        },
+        {
+          "ky_han": "KKH_1T",
+          "doi_tuong": "TC",
+          "gia_tri": 3.8
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.2
+        },
+        {
+          "ky_han": "1T_3T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.1
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "CN",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "3T_6T",
+          "doi_tuong": "TC",
+          "gia_tri": 4.5
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "CN",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "6T_12T",
+          "doi_tuong": "TC",
+          "gia_tri": 5.4
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "CN",
+          "gia_tri": 6.8
+        },
+        {
+          "ky_han": "12T",
+          "doi_tuong": "TC",
+          "gia_tri": 6.2
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "CN",
+          "gia_tri": 6.7
+        },
+        {
+          "ky_han": "24T_plus",
+          "doi_tuong": "TC",
+          "gia_tri": 6.0
+        },
+        {
+          "ky_han": "KBNN_KQ",
+          "doi_tuong": "all",
+          "gia_tri": 1.3
         }
       ]
     }
